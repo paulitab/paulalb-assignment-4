@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LSA Search Engine</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>🔍 LSA Search Engine</h1>
+        <form id="search-form" class="search-form">
+            <input type="text" id="query" placeholder="What are you looking for?" required>
+            <button type="submit" class="btn-search">Go!</button>
+        </form>
+
+        <div id="results"></div>
+        <canvas id="similarity-chart"></canvas>
+    </div>
+    <footer>
+        <p>🚀 Powered by Latent Semantic Analysis</p>
+    </footer>
+    <script src="/static/main.js"></script>
+</body>
+</html>
